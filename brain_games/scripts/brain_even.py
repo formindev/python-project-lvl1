@@ -1,4 +1,5 @@
 from brain_games.even_game import even_game
+from brain_games.scripts.brain_games import greet
 
 
 def rules():
@@ -6,6 +7,7 @@ def rules():
 
 
 def main():
+    greet()
     rules()
     even_game()
 
