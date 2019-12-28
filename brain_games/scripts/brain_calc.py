@@ -1,16 +1,16 @@
-from brain_games.even_game import even_game
+from brain_games.calc_game import calc_game
 from brain_games.scripts.brain_games import greet
 from brain_games.cli import print_rules
 
 
 def get_rules():
-    print_rules("Answer 'yes' if number even otherwise answer 'no'.")
+    print_rules("What is the result of the expression?")
 
 
 def main():
     greet()
     get_rules()
-    even_game()
+    calc_game()
 
 
 if __name__ == "__main__":

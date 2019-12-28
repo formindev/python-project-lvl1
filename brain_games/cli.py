@@ -7,18 +7,22 @@ def run():
     return name
 
 
-def question(number):
+def print_rules(rules):
+    print(rules)
+
+
+def print_question(number):
     print("Question:", number)
 
 
-def answer():
+def get_answer():
     result = prompt.string("Your answer: ")
     return result
 
 
 def check(recived, expected, name):
     if recived != expected:
-        print(recived, "is wrong answer ;(. Correct answer was", expected)
+        print("{0} is wrong answer ;(. Correct answer was {1}".format(recived, expected))
         print("Let's try again, {0}!".format(name))
     else:
         print("Correct!")
