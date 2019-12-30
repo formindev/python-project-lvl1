@@ -1,16 +1,9 @@
-from brain_games.even_game import even_game
-from brain_games.scripts.brain_games import greet
-from brain_games.cli import print_rules
-
-
-def get_rules():
-    print_rules("Answer 'yes' if number even otherwise answer 'no'.")
+from brain_games.engine_games import play_game
+from brain_games.games.even_game import even_game
 
 
 def main():
-    greet()
-    get_rules()
-    even_game()
+    play_game(even_game())
 
 
 if __name__ == "__main__":

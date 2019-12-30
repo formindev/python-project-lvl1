@@ -1,13 +1,9 @@
-from brain_games.cli import run
-
-
-def greet():
-    print('Welcome to the Brain Games!')
+from brain_games.cli import (greet, get_user_name)
 
 
 def main():
     greet()
-    run()
+    get_user_name()
 
 
 if __name__ == "__main__":
