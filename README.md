@@ -7,3 +7,7 @@
 Brain-even game.
 Install and run video:
 [![asciicast](https://asciinema.org/a/5c5wAXt1pEWpdMKgGVzpIjJJd.svg)](https://asciinema.org/a/5c5wAXt1pEWpdMKgGVzpIjJJd)
+
+Brain-calc game.
+Install and run video:
+[![asciicast](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD.svg)](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD)
