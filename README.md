@@ -11,3 +11,7 @@ Install and run video:
 Brain-calc game.
 Install and run video:
 [![asciicast](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD.svg)](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD)
+
+Brain-gcd game.
+Install and run video:
+[![asciicast](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA.svg)](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA)
