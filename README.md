@@ -15,3 +15,7 @@ Install and run video:
 Brain-gcd game.
 Install and run video:
 [![asciicast](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA.svg)](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA)
+
+Brain-progression game.
+Install and run video:
+[![asciicast](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH.svg)](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH)
