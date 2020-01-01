@@ -17,7 +17,7 @@ def play_game(game):
         get_question = game["question"]
         question = get_question()
         print_question(question)
-        user_answer = get_user_answer()
+        user_answer = get_user_answer().lower()
         get_right_answer = game["answer"]
         right_answer = get_right_answer(question)
         check(user_answer, right_answer, user_name)

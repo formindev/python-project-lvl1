@@ -19,3 +19,7 @@ Install and run video:
 Brain-progression game.
 Install and run video:
 [![asciicast](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH.svg)](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH)
+
+Brain-prime game.
+Install and run video:
+[![asciicast](https://asciinema.org/a/MGWRGFzr0HINlnrvU8j1cs2OM.svg)](https://asciinema.org/a/MGWRGFzr0HINlnrvU8j1cs2OM)
