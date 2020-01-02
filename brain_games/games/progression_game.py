@@ -1,40 +1,63 @@
 import random
 
+START_RANDOM_RANGE = 1
+END_RANDOM_RANGE = 100
+START_RANDOM_STEP = 1
+END_RANDOM_STEP = 10
+PROGRESSION_LEN = 10
+
 
 def get_rules():
     return "What number is missing in the progression?"
 
 
 def get_question():
-    start_number = random.randint(1, 100)
-    step = random.randint(1, 10)
-    hidden_number = random.randint(0, 9)
+    start_number = random.randint(START_RANDOM_RANGE, END_RANDOM_RANGE)
+    step = random.randint(START_RANDOM_STEP, END_RANDOM_STEP)
+    hidden_number = random.randint(0, PROGRESSION_LEN - 1)
+
     progression = ""
-    for i in range(0, 10):
+
+    for i in range(0, PROGRESSION_LEN):
         if i == hidden_number:
             progression += ".. "
         else:
             progression += str(start_number) + " "
         start_number = start_number + step
+
     return progression
 
 
-def get_number(numbers):
-    progression = numbers.split()
-    for index, i in enumerate(progression):
+def get_hidden_number(progression):
+    numbers = progression.split()
+
+    for index, i in enumerate(numbers):
         if i == "..":
-            if index != 0 and index != len(progression) - 1:
-                step = (int(progression[index + 1]) -
-                        int(progression[index - 1])) / 2
-                number = int(int(progression[index - 1]) + step)
-            else:
-                step = int(progression[2]) - int(progression[1])
-                if index == 0:
-                    number = int(progression[1]) - step
-                else:
-                    number = int(progression[index - 1]) + step
-    return str(number)
+            hidden_number = __calc_hidden_number(index, numbers)
+
+    answer = str(hidden_number)
+    return answer
+
+
+def __calc_hidden_number(index, numbers):
+    if index != 0 and index != len(numbers) - 1:
+        step = (int(numbers[index + 1]) -
+                int(numbers[index - 1])) / 2
+        hidden_number = int(int(numbers[index - 1]) + step)
+    else:
+        step = int(numbers[2]) - int(numbers[1])
+        if index == 0:
+            hidden_number = int(numbers[1]) - step
+        else:
+            hidden_number = int(numbers[index - 1]) + step
+
+    return hidden_number
 
 
 def progression_game():
-    return {"rules": get_rules, "question": get_question, "answer": get_number}
+    game = {
+            "rules": get_rules,
+            "question": get_question,
+            "answer": get_hidden_number,
+            }
+    return game

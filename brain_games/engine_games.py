@@ -1,8 +1,11 @@
 from brain_games.cli import (
                             greet, print_rules, get_user_name,
                             print_question, get_user_answer,
-                            congrat, check,
+                            congratulate, check,
                             )
+
+
+ROUNDS_COUNT = 3
 
 
 def play_game(game):
@@ -13,7 +16,7 @@ def play_game(game):
 
     user_name = get_user_name()
     answer_count = 0
-    while answer_count < 3:
+    while answer_count < ROUNDS_COUNT:
         get_question = game["question"]
         question = get_question()
         print_question(question)
@@ -24,5 +27,5 @@ def play_game(game):
         if user_answer != right_answer:
             return 0
         answer_count += 1
-    congrat(user_name)
+    congratulate(user_name)
     return 0
