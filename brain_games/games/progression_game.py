@@ -40,16 +40,17 @@ def get_hidden_number(progression):
 
 
 def __calc_hidden_number(index, numbers):
-    if index != 0 and index != len(numbers) - 1:
-        step = (int(numbers[index + 1]) -
-                int(numbers[index - 1])) / 2
-        hidden_number = int(int(numbers[index - 1]) + step)
-    else:
+    if index == 0:
         step = int(numbers[2]) - int(numbers[1])
-        if index == 0:
-            hidden_number = int(numbers[1]) - step
-        else:
-            hidden_number = int(numbers[index - 1]) + step
+        return int(numbers[1]) - step
+
+    if index == len(numbers) - 1:
+        step = int(numbers[2]) - int(numbers[1])
+        return int(numbers[index - 1]) + step
+
+    step = (int(numbers[index + 1]) -
+            int(numbers[index - 1])) / 2
+    hidden_number = int(int(numbers[index - 1]) + step)
 
     return hidden_number
 
