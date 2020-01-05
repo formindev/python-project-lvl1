@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from brain_games.cli import (greet, get_user_name)
 
 

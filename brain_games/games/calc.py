@@ -2,13 +2,9 @@ import random
 
 START_RANDOM_RANGE = 1
 END_RANDOM_RANGE = 100
+RULES = "What is the result of the expression?"
 
 operations = ['+', '-', '*']
-
-
-def get_rules():
-    rules = "What is the result of the expression?"
-    return rules
 
 
 def get_question():
@@ -19,18 +15,6 @@ def get_question():
     operation = operations[random_index]
 
     question = str(operand1) + operation + str(operand2)
-    return question
+    answer = str(eval(question))
 
-
-def eval_expression(expression):
-    answer = str(eval(expression))
-    return answer
-
-
-def calc_game():
-    game = {
-            "rules": get_rules,
-            "question": get_question,
-            "answer": eval_expression,
-            }
-    return game
+    return (question, answer)

@@ -14,7 +14,7 @@ Brain games is a training project that implements a set of mini-games. Each game
 In this game you need to determine whether the number is even.
 Video of the installation package and start the game:
 
-[![asciicast](https://asciinema.org/a/5c5wAXt1pEWpdMKgGVzpIjJJd.svg)](https://asciinema.org/a/5c5wAXt1pEWpdMKgGVzpIjJJd)
+[![asciicast](https://asciinema.org/a/ZtOdatWXmGs817Qi0XL0T01z2.svg)](https://asciinema.org/a/ZtOdatWXmGs817Qi0XL0T01z2)
 
 
 ## Brain-calc game
@@ -22,14 +22,14 @@ Video of the installation package and start the game:
 In this game you need to solve an arithmetic expression in your mind.
 Video of the installation package and start the game:
 
-[![asciicast](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD.svg)](https://asciinema.org/a/rVTdMFK5zvUbKyGNG6eLge8JD)
+[![asciicast](https://asciinema.org/a/sVEp1IX3ZkmIGGlvEwmzl1YeU.svg)](https://asciinema.org/a/sVEp1IX3ZkmIGGlvEwmzl1YeU)
 
 ## Brain-gcd game
 
 In this game you need to find the greatest common divisor of two numbers.
 Video of the installation package and start the game:
 
-[![asciicast](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA.svg)](https://asciinema.org/a/Vx3a1o2hKEnG7cegtaFXP0VhA)
+[![asciicast](https://asciinema.org/a/SjBzXJ2eDepF9cpLbDw4PYCFV.svg)](https://asciinema.org/a/SjBzXJ2eDepF9cpLbDw4PYCFV)
 
 
 ## Brain-progression game
@@ -37,7 +37,7 @@ Video of the installation package and start the game:
 In this game you need to find the missing number of arithmetic progression.
 Video of the installation package and start the game:
 
-[![asciicast](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH.svg)](https://asciinema.org/a/L8vVtvWrdvxmvf55cP1B6q1OH)
+[![asciicast](https://asciinema.org/a/P16X8q5ydpjlVJyqj48zixBEI.svg)](https://asciinema.org/a/P16X8q5ydpjlVJyqj48zixBEI)
 
 
 ## Brain-prime game
@@ -45,4 +45,4 @@ Video of the installation package and start the game:
 In this game, you need to determine whether a number is prime.
 Video of the installation package and start the game:
 
-[![asciicast](https://asciinema.org/a/MGWRGFzr0HINlnrvU8j1cs2OM.svg)](https://asciinema.org/a/MGWRGFzr0HINlnrvU8j1cs2OM)
+[![asciicast](https://asciinema.org/a/MQdzf8xTIh3ZFzIJagOPXjhJo.svg)](https://asciinema.org/a/MQdzf8xTIh3ZFzIJagOPXjhJo)

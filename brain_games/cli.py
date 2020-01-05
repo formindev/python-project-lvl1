@@ -21,7 +21,7 @@ def print_question(question):
 
 def get_user_answer():
     user_answer = prompt.string("Your answer: ")
-    return user_answer
+    return user_answer.lower()
 
 
 def check(recived_answer, expected_answer, user_name):
