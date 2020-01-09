@@ -11,8 +11,8 @@ def get_user_name():
     return user_name
 
 
-def print_rules(rules):
-    print(rules)
+def print_text(text):
+    print(text)
 
 
 def print_question(question):
@@ -24,13 +24,10 @@ def get_user_answer():
     return user_answer.lower()
 
 
-def check(recived_answer, expected_answer, user_name):
-    if recived_answer != expected_answer:
-        print("{0} is wrong answer ;(. Correct answer was {1}"
-              .format(recived_answer, expected_answer))
-        print("Let's try again, {0}!".format(user_name))
-    else:
-        print("Correct!")
+def print_fail_answer(recived_answer, expected_answer, user_name):
+    print("{0} is wrong answer ;(. Correct answer was {1}"
+          .format(recived_answer, expected_answer))
+    print("Let's try again, {0}!".format(user_name))
 
 
 def congratulate(user_name):

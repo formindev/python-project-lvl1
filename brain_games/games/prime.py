@@ -10,21 +10,25 @@ def get_question():
     number = random.randint(START_RANDOM_RANGE, END_RANDOM_RANGE)
 
     question = str(number)
-    answer = __is_prime(number)
+
+    if is_prime(number):
+        answer = "yes"
+    else:
+        answer = "no"
 
     return (question, answer)
 
 
-def __is_prime(number):
+def is_prime(number):
     if number == 2:
-        return "yes"
+        return True
 
     if number % 2 == 0:
-        return "no"
+        return False
 
     limit = int(math.sqrt(number)) + 1
     for i in range(3, limit):
         if number % i == 0:
-            return "no"
+            return False
 
-    return "yes"
+    return True
