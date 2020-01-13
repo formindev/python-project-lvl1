@@ -1,5 +1,5 @@
 import random
-from operator import (add, sub, mul)
+from operator import add, sub, mul
 
 START_RANDOM_RANGE = 1
 END_RANDOM_RANGE = 100
@@ -14,7 +14,7 @@ def get_question():
 
     operation, func = random.choice(operations)
 
-    question = str(operand1) + operation + str(operand2)
+    question = "{0} {1} {2}".format(operand1, operation, operand2)
     answer = str(func(operand1, operand2))
 
     return (question, answer)

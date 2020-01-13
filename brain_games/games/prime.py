@@ -27,7 +27,7 @@ def is_prime(number):
         return False
 
     limit = int(math.sqrt(number)) + 1
-    for i in range(3, limit):
+    for i in range(3, limit, 2):
         if number % i == 0:
             return False
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "formindev_brain_games"
-version = "0.9.0"
+version = "0.9.1"
 description = "A set of console mini-games"
 authors = ["formindev <formindeve@gmail.com>"]
 repository = "https://github.com/formindev/java-project-lvl1"
